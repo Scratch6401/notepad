@@ -5,7 +5,7 @@ const note = document.createElement('textarea');
 const noteSave = document.createElement('button');
 const noteReset = document.createElement('button');
 
-div.style.position = 'fixed';
+div.style.position = 'absolute';
 div.style.top = 0;
 div.style.display = 'flex';
 div.style.flexFlow = 'column';
