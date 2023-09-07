@@ -5,11 +5,11 @@ const note = document.createElement('textarea');
 const noteSave = document.createElement('button');
 const noteReset = document.createElement('button');
 
-div.style.position = 'absolute';
+div.style.position = 'fixed';
 div.style.top = 0;
 div.style.display = 'flex';
 div.style.flexFlow = 'column';
-div.style.zIndex = '100';
+div.style.zIndex = '10000';
 
 title.innerText = 'Notepad';
 title.style.margin = 0;
