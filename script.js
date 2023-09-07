@@ -19,6 +19,7 @@ note.style.width = '20vh';
 note.style.height = '10vh';
 note.style.border = '2px solid #0cb';
 note.style.borderRadius = '20px';
+note.style.background = 'none';
 note.style.resize = 'none';
 
 noteSave.innerText = 'Save';
